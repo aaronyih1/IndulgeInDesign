@@ -2,7 +2,8 @@ body{
 	margin:0;
 }
 #navHeader{
-	z-index: -100;
+	z-index: 100;
+	opacity:0.8;
 }
 #nav{
 	z-index: 1000;
@@ -16,4 +17,8 @@ ul{
 }
 h2{
 	text-align: right;
+	line-height: 37pt;
+}
+td{
+	vertical-align: text-top;
 }

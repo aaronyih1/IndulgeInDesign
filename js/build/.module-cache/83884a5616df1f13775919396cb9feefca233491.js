@@ -50,8 +50,7 @@ var App = React.createClass({displayName: "App",
               React.createElement("img", {src: "imgs/phone.png", style: headStyle}), 
               React.createElement("p", {style: descriptionStyle}, "For anything regarding membership, text Aaron at (925)876-0497 with a picture of your favorite chair or door knob. Any texts that do not include this picture will be promptly ignored. For other inqueries, please email aaron.yih@ucla.edu.")
             )
-          ), 
-          React.createElement("tr", {style: rowSpacer})
+          )
         )
       )
     );

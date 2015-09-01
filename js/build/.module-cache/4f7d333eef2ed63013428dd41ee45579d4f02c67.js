@@ -26,7 +26,6 @@ var App = React.createClass({displayName: "App",
               React.createElement("p", {style: descriptionStyle}, "We seek answers to the question “What makes us human?” and in doing so, we position ourselves to address human needs.")
             )
           ), 
-          React.createElement("tr", {style: rowSpacer}), 
           React.createElement("tr", null, 
             React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Schedule")), 
             React.createElement("td", null, 
@@ -34,7 +33,6 @@ var App = React.createClass({displayName: "App",
               React.createElement("p", {style: descriptionStyle}, "(InDe) is a community of design oriented thinkers and creators obsessed with inventing innovative solutions to people’s problems.")
             )
           ), 
-          React.createElement("tr", {style: rowSpacer}), 
           React.createElement("tr", null, 
             React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Membership")), 
             React.createElement("td", null, 
@@ -43,15 +41,13 @@ var App = React.createClass({displayName: "App",
               React.createElement("p", {style: descriptionStyle}, "All members have completed an on-boarding process that is designed to communicate the culture of Indulge In Design while also fostering a community of learning and doing. There is no timeline for the process because it is a merit-based program. If you complete the requirements of the program, you become a member. It’s that simple. Check out the handbook for specifics.")
             )
           ), 
-          React.createElement("tr", {style: rowSpacer}), 
           React.createElement("tr", null, 
             React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Contact")), 
             React.createElement("td", null, 
               React.createElement("img", {src: "imgs/phone.png", style: headStyle}), 
               React.createElement("p", {style: descriptionStyle}, "For anything regarding membership, text Aaron at (925)876-0497 with a picture of your favorite chair or door knob. Any texts that do not include this picture will be promptly ignored. For other inqueries, please email aaron.yih@ucla.edu.")
             )
-          ), 
-          React.createElement("tr", {style: rowSpacer})
+          )
         )
       )
     );
@@ -110,7 +106,7 @@ var descriptionStyle={
   marginLeft:'15px'
 };
 var rowSpacer={
-  height: '100px'
+  height: '400px'
 };
 
 React.render(
