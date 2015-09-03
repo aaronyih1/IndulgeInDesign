@@ -1,6 +1,20 @@
 body{
 	margin:0;
 }
+ul{
+	list-style-type:none;
+}
+h2{
+	text-align: right;
+	line-height: 37pt;
+}
+td{
+	vertical-align: text-top;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
 #navHeader{
 	z-index: 100;
 	opacity:0.8;
@@ -12,13 +26,21 @@ body{
 #homeButton{
 	margin-right: 30vw;
 }
-ul{
-	list-style-type:none;
+#philosophyAnchor{
+	display: block;
+	height: 150px;
+	margin-top: -150px;
+	visibility: hidden;
 }
-h2{
-	text-align: right;
-	line-height: 37pt;
+#scheduleAnchor{
+	display: block;
+	height: 175px;
+	margin-top: -175px;
+	visibility: hidden;
 }
-td{
-	vertical-align: text-top;
+#memberAnchor{
+	display: block;
+	height: 170px;
+	margin-top: -170px;
+	visibility: hidden;
 }

@@ -96,9 +96,8 @@ var headStyle={
   display: 'block'
 };
 var scheduleStyle={
-  display: 'block',
-  width: '300',
-  paddingLeft: '25px'
+  width: '330px',
+  display: 'block'
 };
 var tableStyle={
   width: '900px',

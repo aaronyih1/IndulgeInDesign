@@ -93,12 +93,12 @@ var sketchStyle={
 };
 var headStyle={
   width: '300px',
-  display: 'block'
+  display: 'block',
+  margin: '0 auto'
 };
 var scheduleStyle={
   display: 'block',
-  width: '300',
-  paddingLeft: '25px'
+  width: '300'
 };
 var tableStyle={
   width: '900px',

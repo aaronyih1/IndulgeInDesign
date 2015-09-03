@@ -33,9 +33,9 @@ var App = React.createClass({displayName: "App",
             React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Schedule")), 
             React.createElement("td", null, 
               React.createElement("a", {name: "schedule", id: "scheduleAnchor"}), 
-              React.createElement("img", {src: "imgs/schedule.png", style: scheduleStyle}), 
-              React.createElement("p", {style: descriptionStyle}, "Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a weekly work sesh every wednesday from 8 till sleep. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies."), 
-              React.createElement("p", {style: descriptionStyle}, "The spontaneous, impromptu things include road trips, dinners out, and random creative activities. The idea is to experience things that will challenge assumptions we have around people and the world.")
+              React.createElement("img", {src: "imgs/schedule.png", style: headStyle}), 
+              React.createElement("p", {style: descriptionStyle}, "be a weekly work sesh every wednesday from 8 till sleep. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies. "), 
+              React.createElement("p", {style: descriptionStyle}, " ")
             )
           ), 
           React.createElement("tr", {style: rowSpacer}), 
@@ -94,11 +94,6 @@ var sketchStyle={
 var headStyle={
   width: '300px',
   display: 'block'
-};
-var scheduleStyle={
-  display: 'block',
-  width: '300',
-  paddingLeft: '25px'
 };
 var tableStyle={
   width: '900px',

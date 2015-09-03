@@ -2,11 +2,10 @@ var App = React.createClass({displayName: "App",
   render: function() {
     return (
       React.createElement("div", {className: "nav"}, 
-        React.createElement("a", {name: "#top"}), 
         React.createElement("img", {src: "imgs/menubar.svg", style: navBarStyle, id: "navHeader"}), 
         React.createElement("ul", {style: navStyle, id: "nav"}, 
-          React.createElement("li", {style: navItemStyle, id: "homeButton"}, React.createElement("a", {href: "#top"}, React.createElement("img", {src: "imgs/coffee.svg", style: logoStyle}))), 
-          React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#top"}, "intro")), 
+          React.createElement("li", {style: navItemStyle, id: "homeButton"}, React.createElement("img", {src: "imgs/coffee.svg", style: logoStyle})), 
+          React.createElement("li", {style: navItemStyle}, "intro"), 
           React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#philosophy"}, "philosophy")), 
           React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#schedule"}, "schedule")), 
           React.createElement("li", {style: navItemStyle}, React.createElement("a", {href: "#member"}, "membership")), 
@@ -33,9 +32,8 @@ var App = React.createClass({displayName: "App",
             React.createElement("td", null, React.createElement("h2", {style: subtitleStyle}, "Schedule")), 
             React.createElement("td", null, 
               React.createElement("a", {name: "schedule", id: "scheduleAnchor"}), 
-              React.createElement("img", {src: "imgs/schedule.png", style: scheduleStyle}), 
-              React.createElement("p", {style: descriptionStyle}, "Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a weekly work sesh every wednesday from 8 till sleep. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies."), 
-              React.createElement("p", {style: descriptionStyle}, "The spontaneous, impromptu things include road trips, dinners out, and random creative activities. The idea is to experience things that will challenge assumptions we have around people and the world.")
+              React.createElement("img", {src: "imgs/schedule.png", style: headStyle}), 
+              React.createElement("p", {style: descriptionStyle}, "(InDe) is a community of design oriented thinkers and creators obsessed with inventing innovative solutions to people’s problems.")
             )
           ), 
           React.createElement("tr", {style: rowSpacer}), 
@@ -94,11 +92,6 @@ var sketchStyle={
 var headStyle={
   width: '300px',
   display: 'block'
-};
-var scheduleStyle={
-  display: 'block',
-  width: '300',
-  paddingLeft: '25px'
 };
 var tableStyle={
   width: '900px',
