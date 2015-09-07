@@ -45,7 +45,7 @@ var App = React.createClass({
               <a name="member" id="memberAnchor"></a>
               <img src="imgs/knight.png"  style={headStyle}/>
               <p style={descriptionStyle}>The common thread connecting all of our members is an overwhelming desire to find what makes us human and to use those answers to improve the human experience through intentious and purposeful design. To be a designer is to question how and why things are done the way they are and to find better ways to do those things. Design is optimizing for circumstance and context.</p>
-              <p style={descriptionStyle}>All members have completed an on-boarding process that is designed to communicate the culture of Indulge In Design while also fostering a community of learning and doing. There is no timeline for the process because it is a merit-based program. If you complete the requirements of the program, you become a member. It’s that simple. Check out the handbook for specifics.</p>
+              <p style={descriptionStyle}>All members have completed the <a href="files/YoungDesignersProgram.pdf" id="pdfLink">Young Designers Program (YDP)</a> that is designed to communicate the culture of Indulge In Design while also fostering a community of learning and doing. There is no timeline for the process because it is a merit-based program. If you complete the requirements of the program, you become a member. It’s that simple. Check out the <a href="files/infoPack.pdf" id="pdfLink">info packet</a> for an overview of the process.</p>
             </td>
           </tr>
           <tr style={rowSpacer}></tr>
