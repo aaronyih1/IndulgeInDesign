@@ -34,7 +34,7 @@ var App = React.createClass({displayName: "App",
             React.createElement("td", null, 
               React.createElement("a", {name: "schedule", id: "scheduleAnchor"}), 
               React.createElement("img", {src: "imgs/schedule.png", style: scheduleStyle}), 
-              React.createElement("p", {style: descriptionStyle}, "Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a mandatory weekly creativity time every tuesday from 8PM till 11PM. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies."), 
+              React.createElement("p", {style: descriptionStyle}, "Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a mandatory weekly creativity time every tuesday from 8 till 11. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies."), 
               React.createElement("p", {style: descriptionStyle}, "The spontaneous, impromptu things include road trips, dinners out, and random community-building activities. The idea is to experience things that will challenge assumptions we have around people and the world.")
             )
           ), 

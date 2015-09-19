@@ -16,7 +16,7 @@ var App = React.createClass({displayName: "App",
         React.createElement("table", {style: tableStyle}, 
           React.createElement("tr", null, 
             React.createElement("td", null, React.createElement("h2", {style: titleStyle}, "Indulge", React.createElement("br", null), "In Design")), 
-            React.createElement("td", null, React.createElement("p", {style: descriptionStyle}, "(InDe) is a community of artistically-oriented thinkers and creators obsessed with designing innovative solutions to people’s problems. By cultivating an environment rich in indulgence of interesting food, places, and experiences, members will learn to command creativity, innovation, and passion through a tight embrace of spontaneity, uncertainty, and risk—all in the name of anthropocentric design. "))
+            React.createElement("td", null, React.createElement("p", {style: descriptionStyle}, "(InDe) is a community of artistically-oriented thinkers and creators obsessed with designing innovative solutions to people’s problems. By cultivating an environment rich in indulgence of that which the world has to offer, namely: interesting food, places, and experiences, members will learn to command creativity, innovation, and passion through a tight embrace of spontaneity, uncertainty, and risk—all in the name of anthropocentric design. "))
           ), 
           React.createElement("tr", {style: rowSpacer}), 
           React.createElement("tr", null, 
@@ -34,8 +34,8 @@ var App = React.createClass({displayName: "App",
             React.createElement("td", null, 
               React.createElement("a", {name: "schedule", id: "scheduleAnchor"}), 
               React.createElement("img", {src: "imgs/schedule.png", style: scheduleStyle}), 
-              React.createElement("p", {style: descriptionStyle}, "Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a mandatory weekly creativity time every tuesday from 8PM till 11PM. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies."), 
-              React.createElement("p", {style: descriptionStyle}, "The spontaneous, impromptu things include road trips, dinners out, and random community-building activities. The idea is to experience things that will challenge assumptions we have around people and the world.")
+              React.createElement("p", {style: descriptionStyle}, "Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a weekly work sesh every wednesday from 8 till sleep. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies."), 
+              React.createElement("p", {style: descriptionStyle}, "The spontaneous, impromptu things include road trips, dinners out, and random creative activities. The idea is to experience things that will challenge assumptions we have around people and the world.")
             )
           ), 
           React.createElement("tr", {style: rowSpacer}), 
@@ -45,7 +45,7 @@ var App = React.createClass({displayName: "App",
               React.createElement("a", {name: "member", id: "memberAnchor"}), 
               React.createElement("img", {src: "imgs/knight.png", style: headStyle}), 
               React.createElement("p", {style: descriptionStyle}, "The common thread connecting all of our members is an overwhelming desire to find what makes us human and to use those answers to improve the human experience through intentious and purposeful design. To be a designer is to question how and why things are done the way they are and to find better ways to do those things. Design is optimizing for circumstance and context."), 
-              React.createElement("p", {style: descriptionStyle}, "All members have completed the ", React.createElement("a", {href: "files/YoungDesignersProgram.pdf", id: "pdfLink"}, "Young Designers Program (YDP)"), " that is designed to communicate the culture of Indulge In Design while also fostering a community of learning and doing. There is no timeline for the process because it is a merit-based program. If you complete all requirements of the program, you become a member. It’s that simple. Check out the ", React.createElement("a", {href: "files/infoPack.pdf", id: "pdfLink"}, "info packet"), " for an overview of the process.")
+              React.createElement("p", {style: descriptionStyle}, "All members have completed the ", React.createElement("a", {href: "files/YoungDesignersProgram.pdf", id: "pdfLink"}, "Young Designers Program (YDP)"), " that is designed to communicate the culture of Indulge In Design while also fostering a community of learning and doing. There is no timeline for the process because it is a merit-based program. If you complete the requirements of the program, you become a member. It’s that simple. Check out the ", React.createElement("a", {href: "files/infoPack.pdf", id: "pdfLink"}, "info packet"), " for an overview of the process.")
             )
           ), 
           React.createElement("tr", {style: rowSpacer}), 
@@ -87,7 +87,7 @@ var logoStyle={
 };
 var sketchStyle={
   width: '400px',
-  marginTop: '170px',
+  marginTop: '200px',
   marginLeft:'370px',
   display:'block'
 };
@@ -103,7 +103,7 @@ var scheduleStyle={
 var tableStyle={
   width: '900px',
   marginLeft: '50px',
-  marginTop:'-45px'
+  marginTop:'-20px'
 };
 var titleStyle={
   fontFamily: 'avenir',
@@ -118,7 +118,7 @@ var subtitleStyle={
 var descriptionStyle={
   fontFamily:'avenir',
   fontWeight: '100',
-  width: '350px',
+  width: '320px',
   marginLeft:'15px'
 };
 var rowSpacer={
