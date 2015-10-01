@@ -54,7 +54,7 @@ var App = React.createClass({displayName: "App",
             React.createElement("td", null, 
               React.createElement("a", {name: "contact"}), 
               React.createElement("img", {src: "imgs/phone.png", style: headStyle}), 
-              React.createElement("p", {style: descriptionStyle}, "Text Aaron at (925)876-0497 with a picture of your favorite chair or door knob.")
+              React.createElement("p", {style: descriptionStyle}, "Text Aaron at (925)876-0497 with a picture of your favorite chair or door knob. Any texts that do not include this picture will be promptly ignored.")
             )
           ), 
           React.createElement("tr", {style: rowSpacer}), 

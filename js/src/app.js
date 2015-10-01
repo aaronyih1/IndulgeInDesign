@@ -16,7 +16,7 @@ var App = React.createClass({
         <table style={tableStyle}>
           <tr>
             <td><h2 style={titleStyle}>Indulge<br></br>In Design</h2></td>
-            <td><p style={descriptionStyle}>(InDe) is a community of artistically-oriented thinkers and creators obsessed with designing innovative solutions to people’s problems. By cultivating an environment rich in indulgence of interesting food, places, and experiences, members will learn to command creativity, innovation, and passion through a tight embrace of spontaneity, uncertainty, and risk—all in the name of anthropocentric design. </p></td>
+            <td><p style={descriptionStyle}>(InDe) is an exclusive community of artistically-oriented thinkers and creators obsessed with designing innovative solutions to people’s problems. By cultivating an environment rich in indulgence of interesting food, places, and experiences, members will learn to command creativity, innovation, and passion through a tight embrace of spontaneity, uncertainty, and risk—all in the name of anthropocentric design. </p></td>
           </tr>
           <tr style={rowSpacer}></tr>
           <tr>
@@ -34,7 +34,7 @@ var App = React.createClass({
             <td>
               <a name="schedule" id="scheduleAnchor"></a>
               <img src="imgs/schedule.png"  style={scheduleStyle}/>
-              <p style={descriptionStyle}>Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a mandatory weekly creativity time every tuesday from 8PM till 11PM. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies.</p>
+              <p style={descriptionStyle}>Most events are spontaneous and impromptu—exactly how we like them. That being said, there will be a mandatory weekly creativity seshion every monday from 7:27PM till 10:27PM. We will have white boards and markers, cappuccinos, and high quality loose leaf tea. Occasionally, we’ll have some extra goodies.</p>
               <p style={descriptionStyle}>The spontaneous, impromptu things include road trips, dinners out, and random community-building activities. The idea is to experience things that will challenge assumptions we have around people and the world.</p>
             </td>
           </tr>
@@ -45,7 +45,7 @@ var App = React.createClass({
               <a name="member" id="memberAnchor"></a>
               <img src="imgs/knight.png"  style={headStyle}/>
               <p style={descriptionStyle}>The common thread connecting all of our members is an overwhelming desire to find what makes us human and to use those answers to improve the human experience through intentious and purposeful design. To be a designer is to question how and why things are done the way they are and to find better ways to do those things. Design is optimizing for circumstance and context.</p>
-              <p style={descriptionStyle}>All members have completed the <a href="files/YoungDesignersProgram.pdf" id="pdfLink">Young Designers Program (YDP)</a> that is designed to communicate the culture of Indulge In Design while also fostering a community of learning and doing. There is no timeline for the process because it is a merit-based program. If you complete all requirements of the program, you become a member. It’s that simple. Check out the <a href="files/infoPack.pdf" id="pdfLink">info packet</a> for an overview of the process.</p>
+              <p style={descriptionStyle}>All members have completed the <a href="files/YoungDesignersProgram.pdf" id="pdfLink">Young Designers Program (YDP)</a> that is designed to communicate the culture of Indulge In Design while also fostering a community of learning and doing. There is no timeline for the process because it is a merit-based program. If you complete all requirements of the program, you become a member. It’s that simple. for an overview of the process.</p>
             </td>
           </tr>
           <tr style={rowSpacer}></tr>
@@ -54,7 +54,7 @@ var App = React.createClass({
             <td>
               <a name="contact"></a>
               <img src="imgs/phone.png"  style={headStyle}/>
-              <p style={descriptionStyle}>For anything regarding membership, text Aaron at (925)876-0497 with a picture of your favorite chair or door knob. Any texts that do not include this picture will be promptly ignored. For other inqueries, please email aaron.yih@ucla.edu.</p>
+              <p style={descriptionStyle}>Text Aaron at (925)876-0497 with a picture of your favorite chair or door knob.</p>
             </td>
           </tr>
           <tr style={rowSpacer}></tr>
